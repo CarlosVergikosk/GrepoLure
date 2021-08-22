@@ -1,7 +1,7 @@
 (function() {
     'use strict';
     const selectElement = document.getElementsByClassName("value_container")[0];
-
+    console.log(selectElement)
     selectElement.addEventListener('change', (event) => {
 
         const result = document.querySelector('.curr');
