@@ -2,9 +2,7 @@
     'use strict';
    
     $(document).ajaxComplete(function() {
-        console.log("2", document.getElementsByClassName("value_container")[1]);
-        const selectElement = document.getElementsByClassName("value_container")[1];
-        const select = document.getElementsByClassName("curr");
+        const select = document.getElementsByClassName("curr")[1];
         console.log(select)
         select.addEventListener('change', (event) => {
             const result = selectElement.innerText
