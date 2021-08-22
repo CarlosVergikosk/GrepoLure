@@ -1,6 +1,6 @@
 (function() {
     'use strict';
-    const selectElement = document.querySelector('.value_container');
+    const selectElement = document.getElementsByClassName("value_container")[0];
 
     selectElement.addEventListener('change', (event) => {
 
@@ -10,6 +10,5 @@
 
     });
 
-    //
-    console.log("QuickBuilder.js");
+    console.log("QuickBuilder.js loaded");
 })();
